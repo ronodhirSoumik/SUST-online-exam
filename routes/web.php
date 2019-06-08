@@ -18,4 +18,10 @@ Route::get('/register', function () {
     return view('registration');
 });
 
+Route::get('/student', function () {
+    return view('studentRegistration');
+});
 
+Route::get('/create-exam', function () {
+    return view('createExam');
+});

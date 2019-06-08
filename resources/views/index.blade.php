@@ -108,22 +108,22 @@
                                 <a href="#banner">Home</a>
                             </li>
                             <li>
-                                <a href="#about">About</a>
+                                <a href="#about">Details</a>
                             </li>
                             <li>
-                                <a href="#gallery">Semesters</a>
+                                <a href="#gallery">Courses</a>
                             </li>
                             <li>
-                                <a href="#services">Courses</a>
+                                <a href="#services">Questions</a>
                             </li>
                             <li>
-                                <a href="#testimonials">Schedule</a>
+                                <a href="#testimonials">About</a>
                             </li>
                             <li>
-                                <a href="#clients">Sign in</a>
+                                <a href="#clients">Assignment</a>
                             </li>
                             <li>
-                                <a href="#pricing">Log in</a>
+                                <a href="#pricing">Exam</a>
                             </li>
                         </ul>
                         </aside>
@@ -143,13 +143,12 @@
             <div class="col-38">
 
                 <div class="section-heading">
-                    <h1>SUST ONLINE EXAM</h1>
-                    <h2>Namari is a free landing page template you can use for your projects. It is free to use for your
-                        personal and commercial projects, enjoy!</h2>
+                    <h1>SUST </br>ONLINE EXAM</h1>
+                    <h2>A platform for both teacher and student to take or attend exam from anywhere</h2>
                 </div>
-
+                 
                 <!--Call to Action-->
-                <a href="#" id="registration" class="button link-register">START CREATING TODAY</a>
+                <a href="#" id="registration" class="button link-register">START YOUR JOURNEY</a>
                 <!--End Call to Action-->
 
             </div>
@@ -525,7 +524,7 @@
 <!--         </form>
 
     </div>
-</div> --> -->
+</div> --> 
 
 <!-- Modal Section -->
 
@@ -535,7 +534,7 @@
 
 <!-- <button class="next">Next</button> -->
 
-<div class="bg-modal-container" visibility: hidden >
+<div id="newmember" class="bg-modal-container" visibility: hidden >
     
 <div class="slider">
     <div class="thumbs">
@@ -551,25 +550,76 @@
             <input type="password" placeholder="Password">
             <!-- <a href="#" id="nexta" class="button">Next</a> -->
         </form>
-    </div>
+    </div>      
 
-      <div class="second-modal-contents">
+    <div class="second-modal-contents">
+       <img src="images\model-images\registration.png" alt="" width="400px" height="257.838px">
+  <h1>WHAT'S YOUR AIM</h1>
+  <h4>Choose your account type</h4>
+
+      </div>
+
+
+      <div class="third-modal-contents">
        <img src="images\model-images\registration.png" alt="" width="400px" height="257.838px"> 
 
         <form action="">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Username">
-            
-            <!-- <a href="#" id="nexta" class="button">Next</a> -->
-        </form>
+            <input id="Accountq1" type="text" placeholder="">
+            <input id="Accountq2" type="text" placeholder="">
+            <input id="Accountq3" type="text" placeholder="">
+            <input id="Accountq4" type="text" placeholder="">
+            <input id="Accountq5" type="text" placeholder="">
+
+            <a  id="nexta" class="button" >Next</a> 
+        </form>        
+
       </div>
      
     </div>
   </div>
+
+
   <div class="close">+</div>
   <button class="next">Next</button>
-  <button class="hint" id="hint" ><img src="images\model-images\cross.png" height="40px" width="40px" /></button>
+  <button class="hint" id="hint" ><img src="images\model-images\cross.png" height="40px" width="40px"></button>
+
+   <form action="" id="chooseAccount" class="chooseType wow fadeInUp" visibility: hidden data-wow-delay="0.3s">
+
+        <ul id="choose">
+        <li id="chooselist"> 
+            <input checked type="radio" id="rd1" value="student" name="1">
+            <label>as a STUDENT ACCOUNT</label>
+            <div class="bullet">
+                <div class="line zero"></div>
+                <div class="line one"></div>
+                <div class="line two"></div>
+                <div class="line three"></div>
+                <div class="line four"></div>
+                <div class="line five"></div>
+                <div class="line six"></div>
+                <div class="line seven"></div>
+            </div>
+        </li>
+        <li id="chooselist"> 
+            <input type="radio"  id="rd2" value="teacher" name="1">
+            <label>as a TEACHER ACCOUNT</label>
+            <div class="bullet">
+                <div class="line zero"></div>
+                <div class="line one"></div>
+                <div class="line two"></div>
+                <div class="line three"></div>
+                <div class="line four"></div>
+                <div class="line five"></div>
+                <div class="line six"></div>
+                <div class="line seven"></div>
+            </div>
+        </li>
+    </ul>
+</form>
 </div>
+
+
+ 
 
 <!-- Slider Modal Section -->
 
