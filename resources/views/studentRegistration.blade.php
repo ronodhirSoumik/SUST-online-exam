@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
 
     <!-- Main CSS Files -->
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/registerStudent.css">
 
     <!-- Namari Color CSS -->
     <link rel="stylesheet" href="css/namari-color.css">
@@ -81,22 +81,22 @@
                                 <a href="#banner">Home</a>
                             </li>
                             <li>
-                                <a 8href="#about">About</a>
+                                <a href="#about">Profile</a>
                             </li>
                             <li>
-                                <a href="#gallery">Semesters</a>
+                                <a href="#gallery">Courses</a>
                             </li>
                             <li>
-                                <a href="#services">Courses</a>
+                                <a href="#services">Assignment</a>
                             </li>
                             <li>
-                                <a href="#testimonials">Schedule</a>
+                                <a href="#pricing">Exams</a>
                             </li>
                             <li>
-                                <a href="#clients">Sign in</a>
+                                <a href="#clients">Questions</a>
                             </li>
                             <li>
-                                <a href="#pricing">Profile</a>
+                                <a href="#testimonials">About</a>
                             </li>
                         </ul>
                         </aside>
@@ -213,47 +213,23 @@
 
         </section>
         <!--End of Introduction-->
-        
-        <aside  class="scrollto text-center" >
-                	<div class="section-heading text-center">
-                    <h3>FEEDBACK</h3>
-                    <h2 class="section-title">What our customers are saying</h2>
+
+
+        <!--Start of Course-->
+
+        <aside class=" scrollto text-center">
+
+                <div class="clearfix section-heading">
+                    <h3>ABOUT</h3>
+                    <h2 class="section-title">Behind the heros of this site</h2>
                 </div>
-
-        </aside>   
-
-
-        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
-                 data-featherlight-filter="a">
-
-                <a href="images/gallery-images/gallery-image-1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                   data-wow-delay="0.1s"><img src="images/gallery-images/gallery-image-1.jpg" alt="Landing Page"/></a>
-                <a href="images/gallery-images/gallery-image-2.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                   data-wow-delay="0.3s"><img src="images/gallery-images/gallery-image-2.jpg" alt="Landing Page"/></a>
-                <a href="images/gallery-images/gallery-image-3.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                   data-wow-delay="0.5s"><img src="images/gallery-images/gallery-image-3.jpg" alt="Landing Page"/></a>
-                <a href="images/gallery-images/gallery-image-4.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                   data-wow-delay="1.1s"><img src="images/gallery-images/gallery-image-4.jpg" alt="Landing Page"/></a>
-                <a href="images/gallery-images/gallery-image-5.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                   data-wow-delay="0.9s"><img src="images/gallery-images/gallery-image-5.jpg" alt="Landing Page"/></a>
-                <a href="images/gallery-images/gallery-image-6.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                   data-wow-delay="0.7s"><img src="images/gallery-images/gallery-image-6.jpg" alt="Landing Page"/></a>
-
         </aside>
-
                                
 
-                 <div class="course-modal-container">
-                
-                	
-                	<div class="course-slider">
-
-                		
-                		<div class="course-thumbs">
-
-                			
-                				  <div id="gallery" class="first-modal-contents row text-center scrollto clearfix" data-featherlight-gallery
-                 data-featherlight-filter="a">
+                 <div id="gallery" class="row course-modal-container text-center scrollto clearfix">
+                    <div class="course-slider">
+                        <div class="course-thumbs">
+                         <div id="gallery" class="first-modal-contents row text-center scrollto clearfix" data-featherlight-gallery data-featherlight-filter="a">
 
 
 
@@ -272,8 +248,7 @@
 
         </div>             
              
-                				  <div id="galle8ry" class="second-modal-contents row text-center scrollto clearfix" data-featherlight-gallery
-                 data-featherlight-filter="a">
+                <div id="gallery" class="second-modal-contents row text-center scrollto clearfix" data-featherlight-gallery data-featherlight-filter="a">
 
                 <a href="images/gallery-images/gallery-image-1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
                    data-wow-delay="0.1s"><img src="images/gallery-images/gallery-image-1.jpg" alt="Landing Page"/></a>
@@ -294,15 +269,8 @@
                 <button class="prev">></button>
                 	<button class="next"><</button>
             </div>
-           
-
-
 
   
-        <!--End of Gallery-->
-
-
-
         <!--End of Gallery-->
 
 
@@ -451,7 +419,6 @@
 
                             
                     </div>
-                    <a id="Questions" class="button">WATCH VIDEO </a>
                             
                 </div>
                             

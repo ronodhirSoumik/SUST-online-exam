@@ -41,21 +41,21 @@ $(function() {
 
      if(rd1.checked==true){
       accountType = 0;
-      document.getElementById("Accountq1").placeholder="Student Id";      
-      document.getElementById("Accountq2").placeholder="Student Year";
-      document.getElementById("Accountq3").placeholder="Student Semester";
-      document.getElementById("Accountq4").placeholder="Student Question";
-      document.getElementById("Accountq5").placeholder="Student Question2";
+      document.getElementById("Accountq1").placeholder="Student Name";      
+      document.getElementById("Accountq2").placeholder="Department";
+      document.getElementById("Accountq3").placeholder="Session";
+      document.getElementById("Accountq4").placeholder="Semester";
+      document.getElementById("Accountq5").placeholder="Section";
 
      }     
 
      if(rd2.checked==true){
       accountType = 1;
-      document.getElementById("Accountq1").placeholder="Teacher Id";
-      document.getElementById("Accountq2").placeholder="Teacher Designation";
-      document.getElementById("Accountq3").placeholder="Teacher Question";
-      document.getElementById("Accountq4").placeholder="Teacher Question1";
-      document.getElementById("Accountq5").placeholder="Teacher Question2";
+      document.getElementById("Accountq1").placeholder="Teacher Name";
+      document.getElementById("Accountq2").placeholder="Department";
+      document.getElementById("Accountq3").placeholder="Designation";
+      document.getElementById("Accountq4").style.display= "none";
+      document.getElementById("Accountq5").style.display= "none";
      }
 
       if (current == elemCount) {

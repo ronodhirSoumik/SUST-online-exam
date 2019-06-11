@@ -2331,15 +2331,19 @@ blockquote {
 .course-modal-container{
 
     /*background-color: #6c757d;*/
-    /*filter: blur(8px);-webkit-filter: blur(8px);*/
+    /*filter: blur(8px);-webkit-filter: blur(8px);
+    display:block;*/
     width: 1345px;
     height: 600px;
 
-    position: absolute;
-    left: 50%;
-    top: 32%;
+    position: relative;
 
-    transform: translate(-50%, -50%);
+
+/*    transform: translate(-50%, -50%);
+    position: relative;
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 75px 0;*/
 }
 
 .course-slider {
