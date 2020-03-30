@@ -69,12 +69,12 @@
                         <!-- sidebar: style can be found in sidebar.less -->
                         <ul>
 
-                            <li class="{{ $request->segment(1) == 'home' ? 'active' : '' }}">
+<!--                             <li class="{{ $request->segment(1) == 'home' ? 'active' : '' }}">
                                 <a href="{{ route('dashboard') }}">
                                 
                                     <span class="title">@lang('quickadmin.qa_dashboard')</span>
                                 </a>
-                            </li>
+                            </li> -->
 
 {{--                             @can('user_management_access')
                                     <li class="treeview">

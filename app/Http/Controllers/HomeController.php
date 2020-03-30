@@ -31,7 +31,15 @@ class HomeController extends Controller
     public function index()
     {
         $courses = Course::orderBy('id', 'desc')->get();
-        return view('index', compact('courses'));
+        if(\Auth::user()->role_id == '3' )
+        {
+            $info = DB::table('student')->where('user_id',\Auth::id())
+           ->select('name','registration_no','department','session','semester')
+           ->get()
+           ->first();
+          // return view('index', compact('info'));
+        }
+        return view('index', compact('courses','info'));
     }
 
 }
