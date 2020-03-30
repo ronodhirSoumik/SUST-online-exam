@@ -587,7 +587,7 @@
             <input id="Accountq5" type="text" placeholder="" name="id5">            
             <input type="submit" name="submit" value="Submit">
 
-            <button  id="nexta" class="button" >Next</button> 
+            <button  id="nexta" class="next" >Next</button> 
         </form>        
 
       </div> 

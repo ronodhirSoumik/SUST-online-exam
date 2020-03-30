@@ -65,7 +65,7 @@
       href="{{ url('css') }}/style.css"/>
 
 <!-- Namari Color CSS -->
-<link rel="stylesheet" href="{{ url('css') }}/namari-color.css">
+<link rel="stylesheet" href="{{ url('css') }}/namari-colortwo.css">
 
 <!--Icon Fonts - Font Awesome Icons-->
 <link rel="stylesheet" href="{{ url('css') }}/font-awesome.min.css">

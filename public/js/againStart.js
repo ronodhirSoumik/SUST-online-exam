@@ -29,6 +29,10 @@ $(function() {
   var move = 0;
   $('.next').click(function() {
 
+    document.getElementById('hint').addEventListener("click", function() {
+  document.querySelector('.bg-modal-container').style.display = "none";
+});
+
     if (current < elemCount) {
       $('.slider .thumbs').toggleClass('move');
       move += elemWidth;

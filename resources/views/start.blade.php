@@ -604,7 +604,7 @@
             <input id="Accountq5" type="text" placeholder="" name="id5">            
             <input type="submit" name="submit" value="Submit">
 
-            <a  id="nexta" class="button" >Next</a> 
+
         </form>        
 
       </div> 
