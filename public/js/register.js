@@ -9,11 +9,11 @@ document.getElementById('hint').addEventListener("click", function() {
 
 document.getElementById('nexta').addEventListener("click", function() {
       if (accountType== 1) {
-document.location.href = "http://localhost/SUSTEXAM/public/register";
+document.location.href = "http://localhost/quiz_semi/public/login";
 
   }
   else if (accountType == 0) {
-document.location.href = "http://localhost/SUSTEXAM/public/student";
+document.location.href = "http://localhost/quiz_semi/public/login";
 }
 });  
 
@@ -23,7 +23,7 @@ document.location.href = "http://localhost/SUSTEXAM/public/student";
 $(function() {
   var rd1= document.getElementById("rd1");
   var rd2= document.getElementById("rd2");
-  var elemCount = 3;
+  var elemCount = 3;/* use 3*/
   var current = 1;
   var elemWidth = 500;
   var move = 0;
@@ -41,16 +41,18 @@ $(function() {
 
      if(rd1.checked==true){
       accountType = 0;
+      document.getElementById("form2").action = "insert1";
       document.getElementById("Accountq1").placeholder="Student Name";      
-      document.getElementById("Accountq2").placeholder="Department";
-      document.getElementById("Accountq3").placeholder="Session";
-      document.getElementById("Accountq4").placeholder="Semester";
-      document.getElementById("Accountq5").placeholder="Section";
+      document.getElementById("Accountq2").placeholder="Registration No.";
+      document.getElementById("Accountq3").placeholder="Department";
+      document.getElementById("Accountq4").placeholder="Session";
+      document.getElementById("Accountq5").placeholder="Semester";
 
      }     
 
      if(rd2.checked==true){
       accountType = 1;
+      document.getElementById("form2").action = "insert2";
       document.getElementById("Accountq1").placeholder="Teacher Name";
       document.getElementById("Accountq2").placeholder="Department";
       document.getElementById("Accountq3").placeholder="Designation";

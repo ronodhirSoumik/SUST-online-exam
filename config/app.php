@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => 'Quiz',
 
     /*
     |--------------------------------------------------------------------------
@@ -68,6 +68,22 @@ return [
     */
 
     'timezone' => 'UTC',
+
+    /*
+     |--------------------------------------------------------------------------
+     | Application Date Format
+     |--------------------------------------------------------------------------
+     |
+     | Here you may specify the default date format for your application, which
+     | will be used with date and date-time functions.
+     |
+     */
+
+    'date_format' => 'd-m-Y',
+    'date_format_js' => 'dd-mm-yy',
+    'date_format_moment' => 'DD-MM-YYYY',
+    'time_format_moment' => 'HH:mm:ss',
+    'datetime_format_moment' => 'DD-MM-YYYY HH:mm:ss',
 
     /*
     |--------------------------------------------------------------------------
@@ -165,6 +181,7 @@ return [
         /*
          * Package Service Providers...
          */
+        
 
         /*
          * Application Service Providers...
@@ -225,7 +242,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        
     ],
+
+    
 
 ];

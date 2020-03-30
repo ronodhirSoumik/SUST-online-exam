@@ -80,7 +80,7 @@ figure {
     margin: 0;
 }
 
-/* Page Border */
+8
 
 .page-border {
     position: fixed;
@@ -1128,6 +1128,7 @@ blockquote {
         opacity: 1;
     }
 
+
     .featherlight .featherlight-image {
         /* styling */
         max-height: 100%;
@@ -1269,6 +1270,8 @@ blockquote {
         margin-top: -30px;
         font-size: 40px;
     }
+
+
 }
 
 /* --------- 6.5 Video ---------- */
@@ -2427,6 +2430,9 @@ blockquote {
 }
 
 /* End Courses part*/
+
+/* Course enrollment section*/
+
 
 /* Button for question segment */
 

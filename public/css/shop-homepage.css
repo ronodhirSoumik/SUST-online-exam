@@ -1,0 +1,208 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+#header {
+    font-size: 13px;
+}
+#header {
+    height: 71px !important;
+    overflow: visible;
+    z-index: 9999;
+    width: 100%;
+    position: absolute !important;
+}
+
+#header .row {
+    padding: 0;
+}
+
+#header aside {
+    text-align: right;
+}
+
+#header ul {
+    text-align: center;
+}
+
+#header li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+}
+
+/* --------- 2.2 Logo ---------- */
+
+#logo {
+    float: left;
+    height: 71px;
+    line-height: 66px;
+    margin-right: 15px;
+}
+
+#logo h1, #logo h2 {
+    display: inline-block;
+}
+
+#banner #logo h1 {
+    font-size: 28px;
+    margin-right: 10px;
+    font-weight: 900;
+    padding: 0;
+}
+
+#logo h2 {
+    font-size: 18px;
+    padding: 0;
+}
+
+#logo img {
+    max-height: 22px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+#navigation-logo {
+    display: none;
+}
+
+.nav-solid #logo #banner-logo {
+    display: none;
+}
+
+.nav-solid #logo #navigation-logo {
+    display: inline-block;
+}
+.row {
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 75px 0;
+    position: relative;
+}
+
+
+#clients .col-2-3 [class*='col-'] {
+    padding: 0;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-1 {
+    width: 100%;
+}
+.row img {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    vertical-align: top;
+}
+h1 {
+    padding: 20px 0;
+}
+
+h2 {
+    padding: 14px 0;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+h4 {
+    padding: 7px 0;
+}
+
+h5 {
+    padding: 7px 0;
+}
+
+h6 {
+    padding: 7px 0;
+}
+
+/* Text Alignment */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Section Headings */
+
+.section-heading {
+    padding: 0 0 15px 0;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    padding-top: 0;
+}
+
+.section-heading h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+#banner {
+    background-size: cover;
+}
+
+#banner-content.row {
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+
+#banner h1 {
+    padding-top: 5%;
+}
+
+#banner .section-heading:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-top: 30px;
+}
